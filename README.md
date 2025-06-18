@@ -11,9 +11,16 @@ A modern React Native application for visa and travel document management, featu
 - **Country Management**: Interactive country selection with flag displays
 - **Clean Architecture**: Well-structured codebase with TypeScript support
 
+## 🎥 Video
+
+- Pressing on the image will direct you to view the video. 
+
+[![VISALAB TASK Review](app/assets/screenshots/Screenshot_1750288165.png)](app/assets/screenshots/preview.mp4)
+
 ## 📱 Screenshots
 
-*Screenshots coming soon*
+![](./app/assets/screenshots/Screenshot_1750288279.png)
+
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +35,8 @@ A modern React Native application for visa and travel document management, featu
 Before running this project, make sure you have:
 
 - Node.js (>=18)
-- Xcode (for iOS development)
 - Android Studio (for Android development)
+- Xcode (for iOS development)
 - CocoaPods (for iOS dependencies)
 
 ## 🔧 Installation
@@ -96,7 +103,7 @@ VISALAB/
 The app supports multiple languages:
 
 - **English** (default)
-- **Arabic** (RTL support)
+- **Arabic** (Not completed yet)
 
 ## Author 👨‍💻
 
@@ -105,7 +112,7 @@ The app supports multiple languages:
 **Mostafa Hamdy**  
 React Native | React Developer
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mostafa-portfolio.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mostafa7amdy.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/🔗_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-7amdy/)
 [![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mostafa44hamdy@gmail.com)
 

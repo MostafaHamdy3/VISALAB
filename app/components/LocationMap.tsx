@@ -23,6 +23,7 @@ const LocationMap = () => {
           <TouchableOpacity
             style={styles.applyBtn}
             onPress={onApplyNow}
+            activeOpacity={0.8}
           >
             <Text style={styles.applyText}>{i18n.t("applyNow")}</Text>
           </TouchableOpacity>

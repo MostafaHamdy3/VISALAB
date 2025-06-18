@@ -72,7 +72,6 @@
   { "id": 364, "alpha2": "ir", "alpha3": "irn", "name": "Iran" },
   { "id": 368, "alpha2": "iq", "alpha3": "irq", "name": "Iraq" },
   { "id": 372, "alpha2": "ie", "alpha3": "irl", "name": "Ireland" },
-  { "id": 376, "alpha2": "il", "alpha3": "isr", "name": "Israel" },
   { "id": 380, "alpha2": "it", "alpha3": "ita", "name": "Italy" },
   { "id": 388, "alpha2": "jm", "alpha3": "jam", "name": "Jamaica" },
   { "id": 392, "alpha2": "jp", "alpha3": "jpn", "name": "Japan" },

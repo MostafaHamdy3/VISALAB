@@ -14,7 +14,11 @@ const Navigation = () => {
         source={require('../../assets/icons/logo.png')}
         style={styles.logo}
       />
-      <TouchableOpacity style={styles.langContainer} onPress={onChangeLanguage}>
+      <TouchableOpacity
+        style={styles.langContainer}
+        onPress={onChangeLanguage}
+        activeOpacity={0.8}
+      >
         <Image
           source={require('../../assets/icons/language.png')}
           style={styles.langIcon}
@@ -32,7 +36,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: 59,
     paddingHorizontal: 20,
-    paddingVertical: 4,
     backgroundColor: colors.white,
     shadowColor: colors.black,
     shadowOffset: { width: 0, height: 4 },

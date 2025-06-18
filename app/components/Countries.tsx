@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     shadowColor: colors.black,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.1,
-    elevation: 11,
+    elevation: 4,
   },
   content: {
     width: ITEM_WIDTH,

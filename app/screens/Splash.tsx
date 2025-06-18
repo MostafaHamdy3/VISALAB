@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.white,
     borderRadius: 16,
-    marginBottom: 18,
+    marginBottom: 20,
   },
   getStartedText: {
     fontSize: 16,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: fonts.medium,
     color: colors.white,
-    marginBottom: 6,
+    marginBottom: 8,
   },
   loginLink: {
     textAlign: 'center',

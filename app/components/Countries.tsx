@@ -23,7 +23,7 @@ const Countries = () => {
       contentContainerStyle={styles.container}
       onScroll={Animated.event(
         [{ nativeEvent: { contentOffset: { x: scrollX } } }],
-        { useNativeDriver: false },
+        { useNativeDriver: true },
       )}
       renderItem={({ item, index }) => {
         const inputRange = [

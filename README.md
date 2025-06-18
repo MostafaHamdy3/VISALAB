@@ -1,97 +1,113 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# VISALAB
 
-# Getting Started
+A modern React Native application for visa and travel document management, featuring internationalization support and a sleek user interface.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🚀 Features
 
-## Step 1: Start Metro
+- **Multi-language Support**: Built-in internationalization with Arabic and English support
+- **Modern Navigation**: Bottom tab navigation with custom icons and smooth animations
+- **Custom Fonts**: Integration support for Futura Md BT fonts
+- **Responsive Design**: Optimized for both iOS and Android platforms
+- **Country Management**: Interactive country selection with flag displays
+- **Clean Architecture**: Well-structured codebase with TypeScript support
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 📱 Screenshots
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+*Screenshots coming soon*
 
-```sh
-# Using npm
-npm start
+## 🛠️ Tech Stack
 
-# OR using Yarn
-yarn start
-```
+- **Framework**: React Native
+- **Navigation**: React Navigation
+- **Language**: TypeScript
+- **Internationalization**: i18n-js
+- **Styling**: React Native StyleSheet
 
-## Step 2: Build and run your app
+## 📋 Prerequisites
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+Before running this project, make sure you have:
 
-### Android
+- Node.js (>=18)
+- Xcode (for iOS development)
+- Android Studio (for Android development)
+- CocoaPods (for iOS dependencies)
 
-```sh
-# Using npm
-npm run android
+## 🔧 Installation
 
-# OR using Yarn
-yarn android
-```
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd VISALAB
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Install iOS dependencies** (iOS only)
+   ```bash
+   cd ios && pod install && cd ..
+   ```
+
+4. **Link custom fonts**
+   ```bash
+   npx react-native-asset
+   ```
+
+## 🚀 Running the App
 
 ### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
+```bash
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+### Android
+```bash
+npm run android
+```
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+### Development Server
+```bash
+npm start
+```
 
-## Step 3: Modify your app
+## 📁 Project Structure
 
-Now that you have successfully run the app, let's make changes!
+```
+VISALAB/
+├── app/
+│   ├── assets/
+│   │   ├── fonts/           # Custom fonts
+│   │   ├── icons/           # App icons
+│   │   └── translation/     # i18n files
+│   ├── components/          # Reusable components
+│   ├── constant/            # App constants and configs
+│   ├── screens/             # App screens
+│   ├── types/              # TypeScript type definitions
+│   └── AppNavigator.tsx    # Navigation configuration
+├── android/                # Android-specific files
+├── ios/                   # iOS-specific files
+└── package.json
+```
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## 🌐 Internationalization
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+The app supports multiple languages:
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+- **English** (default)
+- **Arabic** (RTL support)
 
-## Congratulations! :tada:
+## Author 👨‍💻
 
-You've successfully run and modified your React Native App. :partying_face:
+<div align="center">
 
-### Now what?
+**Mostafa Hamdy**  
+React Native | React Developer
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mostafa-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/🔗_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-7amdy/)
+[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mostafa44hamdy@gmail.com)
 
-# Troubleshooting
+</div>
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Futura Md BT Bold.ttf",
+      "sha1": "037d3d3d3d4940040afce4bee6b65bea19fcbc1f"
+    },
+    {
+      "path": "app/assets/fonts/Futura Md BT Medium.ttf",
+      "sha1": "aae3b3f7db53f999dfc3b33f21eef304535c378d"
+    }
+  ]
+}

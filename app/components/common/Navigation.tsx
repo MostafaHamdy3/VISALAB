@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View, Platform } from 'react-native';
 
 import i18n from '../../assets/translation/i18n';
 import { colors, fonts } from '../../constant/Config';
@@ -41,6 +41,11 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.1,
     elevation: 16,
+    ...Platform.select({
+      ios: {
+        marginTop: 54,
+      },
+    }),
   },
   welcome: {
     color: colors.black,
